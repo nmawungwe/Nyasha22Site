@@ -22,6 +22,18 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Component {...pageProps} />
+      <div
+      style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
+      >
+        <iframe 
+          src="https://nmawungwe.substack.com/embed" 
+          // width="480" 
+          // height="320" 
+          // style={{border:"1px solid #EEE", background:"white"}} 
+          // frameborder="0" 
+          // scrolling="no"
+        />
+      </div>
     </>
   )
 }
